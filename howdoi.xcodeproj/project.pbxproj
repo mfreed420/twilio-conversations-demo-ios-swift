@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04CD54FC2746779D001D1EFC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD54FB2746779D001D1EFC /* NotificationService.swift */; };
-		04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04CD550927467FAE001D1EFC /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550527467FAE001D1EFC /* audio.png */; };
 		04CD550A27467FAE001D1EFC /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550627467FAE001D1EFC /* document.png */; };
 		04CD550B27467FAE001D1EFC /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CD550727467FAE001D1EFC /* video.png */; };
@@ -41,6 +40,7 @@
 		2FA0E96427B3317D0007E21F /* UsernameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96327B3317D0007E21F /* UsernameField.swift */; };
 		2FA0E96627B334C90007E21F /* SigningInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96527B334C90007E21F /* SigningInCard.swift */; };
 		2FA0E96827B476A50007E21F /* PasswordVisibilityToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96727B476A50007E21F /* PasswordVisibilityToggle.swift */; };
+		64DFA5F42A29855300A06DB8 /* PushNotificationServiceExtension.appex in Resources */ = {isa = PBXBuildFile; fileRef = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */; };
 		659649BE27D6D646006A2E28 /* MediaAttachmentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659649BD27D6D646006A2E28 /* MediaAttachmentHelper.swift */; };
 		65A1505027BAC939009D371F /* PersistanceDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1504E27BAC939009D371F /* PersistanceDataAdapter.swift */; };
 		65A1505127BAC939009D371F /* TCHAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1504F27BAC939009D371F /* TCHAdapter.swift */; };
@@ -139,7 +139,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				04CD55002746779D001D1EFC /* PushNotificationServiceExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -771,7 +770,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D473F30A229D715A008709FB /* Build configuration list for PBXProject "ConversationsApp" */;
+			buildConfigurationList = D473F30A229D715A008709FB /* Build configuration list for PBXProject "howdoi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -820,6 +819,7 @@
 				D4E8B0EA22CBA81C009AF419 /* Settings.bundle in Resources */,
 				D4EA524D242BDC9900C1173A /* Localizable.stringsdict in Resources */,
 				92A2F040270F32D900330704 /* testMessages.json in Resources */,
+				64DFA5F42A29855300A06DB8 /* PushNotificationServiceExtension.appex in Resources */,
 				921E4A1E27308DE300628585 /* testConversations.json in Resources */,
 				65E894E227AB1A3900B427EF /* GoogleService-Info.plist in Resources */,
 			);
@@ -987,7 +987,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = Z54V23ER85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PushNotificationServiceExtension;
@@ -999,7 +999,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app.PushNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.howdoi.rtd.conversations.PushNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1013,10 +1013,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = Z54V23ER85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PushNotificationServiceExtension;
@@ -1028,9 +1028,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app.PushNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.howdoi.rtd.conversations.PushNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Conversations Demo App Notifi Ext Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1165,16 +1165,20 @@
 				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Debug;
 				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = Z54V23ER85;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "how do i";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.howdoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
@@ -1188,21 +1192,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Debug;
 				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = Z54V23ER85;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "how do i";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-demo-app";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.howdoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Conversations Demo App Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1221,7 +1229,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D473F30A229D715A008709FB /* Build configuration list for PBXProject "ConversationsApp" */ = {
+		D473F30A229D715A008709FB /* Build configuration list for PBXProject "howdoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D473F335229D715E008709FB /* Debug */,
