@@ -75,7 +75,7 @@
 		921E4A1E27308DE300628585 /* testConversations.json in Resources */ = {isa = PBXBuildFile; fileRef = 92F7EC2D272B22860004470C /* testConversations.json */; };
 		921E4A21273159DC00628585 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E4A20273159DC00628585 /* DebugView.swift */; };
 		921E4A2327315A3A00628585 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E4A2227315A3A00628585 /* MainView.swift */; };
-		921E4A25273177EE00628585 /* ConversationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E4A24273177EE00628585 /* ConversationsApp.swift */; };
+		921E4A25273177EE00628585 /* howdoiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E4A24273177EE00628585 /* howdoiApp.swift */; };
 		9223CE0427506CAE00A3DD9D /* NavigationBar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9223CE0327506CAE00A3DD9D /* NavigationBar+Ext.swift */; };
 		9223CE082751016E00A3DD9D /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9223CE072751016E00A3DD9D /* ReactionsView.swift */; };
 		923C16F22721BD7D0052D2EF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C16F12721BD7D0052D2EF /* SignInView.swift */; };
@@ -211,7 +211,7 @@
 		92192A34273E6B7900B7BEA9 /* MessageBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
 		921E4A20273159DC00628585 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
 		921E4A2227315A3A00628585 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		921E4A24273177EE00628585 /* ConversationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsApp.swift; sourceTree = "<group>"; };
+		921E4A24273177EE00628585 /* howdoiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howdoiApp.swift; sourceTree = "<group>"; };
 		9223CE0327506CAE00A3DD9D /* NavigationBar+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar+Ext.swift"; sourceTree = "<group>"; };
 		9223CE072751016E00A3DD9D /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 		923C16F12721BD7D0052D2EF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -597,8 +597,7 @@
 		D473F306229D715A008709FB = {
 			isa = PBXGroup;
 			children = (
-				643A29932A2A44DA0088FB0B /* GoogleService-Info.plist */,
-				D473F311229D715A008709FB /* ConversationsApp */,
+				D473F311229D715A008709FB /* howdoiapp */,
 				04CD54FA2746779D001D1EFC /* PushNotificationServiceExtension */,
 				D473F310229D715A008709FB /* Products */,
 				860072DF263C4A82001D7F4E /* Frameworks */,
@@ -614,7 +613,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D473F311229D715A008709FB /* ConversationsApp */ = {
+		D473F311229D715A008709FB /* howdoiapp */ = {
 			isa = PBXGroup;
 			children = (
 				2F021DBE2846A6930076EDE7 /* Preview Content */,
@@ -636,10 +635,11 @@
 				D4B0A07A22B7E042007342AF /* Localizable.strings */,
 				D4EA524C242BDC9900C1173A /* Localizable.stringsdict */,
 				65E894E127AB1A3900B427EF /* GoogleService-Info.plist */,
+				643A29932A2A44DA0088FB0B /* GoogleService-Info.plist */,
 				D4E8B0E922CBA81C009AF419 /* Settings.bundle */,
-				921E4A24273177EE00628585 /* ConversationsApp.swift */,
+				921E4A24273177EE00628585 /* howdoiApp.swift */,
 			);
-			path = ConversationsApp;
+			path = howdoiapp;
 			sourceTree = "<group>";
 		};
 		D477FEEF2313F2FB0057462C /* Cache */ = {
@@ -918,7 +918,7 @@
 				2FA0E96627B334C90007E21F /* SigningInCard.swift in Sources */,
 				2FA0E95E27B32BE10007E21F /* BrandFooter.swift in Sources */,
 				65CDD32127C02346002C937B /* ShareSheet.swift in Sources */,
-				921E4A25273177EE00628585 /* ConversationsApp.swift in Sources */,
+				921E4A25273177EE00628585 /* howdoiApp.swift in Sources */,
 				65CDD32627C575A4002C937B /* ReactionsPanel.swift in Sources */,
 				65E894E027AB197B00B427EF /* AddParticipantsButton.swift in Sources */,
 				2F5F128827BEEF99002E4614 /* MessageActionRow.swift in Sources */,
