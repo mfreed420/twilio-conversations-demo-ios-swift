@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,6 +40,7 @@
 		2FA0E96427B3317D0007E21F /* UsernameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96327B3317D0007E21F /* UsernameField.swift */; };
 		2FA0E96627B334C90007E21F /* SigningInCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96527B334C90007E21F /* SigningInCard.swift */; };
 		2FA0E96827B476A50007E21F /* PasswordVisibilityToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0E96727B476A50007E21F /* PasswordVisibilityToggle.swift */; };
+		643A29942A2A44DA0088FB0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643A29932A2A44DA0088FB0B /* GoogleService-Info.plist */; };
 		64DFA5F42A29855300A06DB8 /* PushNotificationServiceExtension.appex in Resources */ = {isa = PBXBuildFile; fileRef = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */; };
 		659649BE27D6D646006A2E28 /* MediaAttachmentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659649BD27D6D646006A2E28 /* MediaAttachmentHelper.swift */; };
 		65A1505027BAC939009D371F /* PersistanceDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1504E27BAC939009D371F /* PersistanceDataAdapter.swift */; };
@@ -133,14 +134,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		04CD55012746779D001D1EFC /* Embed App Extensions */ = {
+		04CD55012746779D001D1EFC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -180,6 +181,7 @@
 		2FA0E96327B3317D0007E21F /* UsernameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameField.swift; sourceTree = "<group>"; };
 		2FA0E96527B334C90007E21F /* SigningInCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningInCard.swift; sourceTree = "<group>"; };
 		2FA0E96727B476A50007E21F /* PasswordVisibilityToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVisibilityToggle.swift; sourceTree = "<group>"; };
+		643A29932A2A44DA0088FB0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		659649BD27D6D646006A2E28 /* MediaAttachmentHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAttachmentHelper.swift; sourceTree = "<group>"; };
 		65A1504E27BAC939009D371F /* PersistanceDataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceDataAdapter.swift; sourceTree = "<group>"; };
 		65A1504F27BAC939009D371F /* TCHAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCHAdapter.swift; sourceTree = "<group>"; };
@@ -595,6 +597,7 @@
 		D473F306229D715A008709FB = {
 			isa = PBXGroup;
 			children = (
+				643A29932A2A44DA0088FB0B /* GoogleService-Info.plist */,
 				D473F311229D715A008709FB /* ConversationsApp */,
 				04CD54FA2746779D001D1EFC /* PushNotificationServiceExtension */,
 				D473F310229D715A008709FB /* Products */,
@@ -733,7 +736,7 @@
 				D473F30C229D715A008709FB /* Frameworks */,
 				D473F30D229D715A008709FB /* Resources */,
 				861FDFA427298AD100798E47 /* Set Bundle Version */,
-				04CD55012746779D001D1EFC /* Embed App Extensions */,
+				04CD55012746779D001D1EFC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -758,8 +761,9 @@
 		D473F307229D715A008709FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Twilio, Inc";
 				TargetAttributes = {
 					04CD54F82746779D001D1EFC = {
@@ -820,6 +824,7 @@
 				D4EA524D242BDC9900C1173A /* Localizable.stringsdict in Resources */,
 				92A2F040270F32D900330704 /* testMessages.json in Resources */,
 				64DFA5F42A29855300A06DB8 /* PushNotificationServiceExtension.appex in Resources */,
+				643A29942A2A44DA0088FB0B /* GoogleService-Info.plist in Resources */,
 				921E4A1E27308DE300628585 /* testConversations.json in Resources */,
 				65E894E227AB1A3900B427EF /* GoogleService-Info.plist in Resources */,
 			);
