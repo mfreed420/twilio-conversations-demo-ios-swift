@@ -1,7 +1,7 @@
 //
 //  MessageDataItem.swift
 // TODO: rename and move
-//  ConversationsApp
+//  howdoiApp
 //
 //  Copyright © Twilio, Inc. All rights reserved.
 //

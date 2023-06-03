@@ -1,6 +1,6 @@
 //
 //  ConversationVM.swift
-//  ConversationsApp
+//  howdoiApp
 //
 //  Copyright © Twilio, Inc. All rights reserved.
 //

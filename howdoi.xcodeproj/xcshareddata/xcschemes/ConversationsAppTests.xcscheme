@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D473F322229D715E008709FB"
-               BuildableName = "ConversationsAppTests.xctest"
-               BlueprintName = "ConversationsAppTests"
+               BuildableName = "howdoiAppTests.xctest"
+               BlueprintName = "howdoiAppTests"
                ReferencedContainer = "container:howdoi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D473F30E229D715A008709FB"
-               BuildableName = "ConversationsApp.app"
-               BlueprintName = "ConversationsApp"
+               BuildableName = "howdoiApp.app"
+               BlueprintName = "howdoiApp"
                ReferencedContainer = "container:howdoi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D473F30E229D715A008709FB"
-            BuildableName = "ConversationsApp.app"
-            BlueprintName = "ConversationsApp"
+            BuildableName = "howdoiApp.app"
+            BlueprintName = "howdoiApp"
             ReferencedContainer = "container:howdoi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D473F322229D715E008709FB"
-               BuildableName = "ConversationsAppTests.xctest"
-               BlueprintName = "ConversationsAppTests"
+               BuildableName = "howdoiAppTests.xctest"
+               BlueprintName = "howdoiAppTests"
                ReferencedContainer = "container:howdoi.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D473F30E229D715A008709FB"
-            BuildableName = "ConversationsApp.app"
-            BlueprintName = "ConversationsApp"
+            BuildableName = "howdoiApp.app"
+            BlueprintName = "howdoiApp"
             ReferencedContainer = "container:howdoi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,8 +94,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D473F322229D715E008709FB"
-            BuildableName = "ConversationsAppTests.xctest"
-            BlueprintName = "ConversationsAppTests"
+            BuildableName = "howdoiAppTests.xctest"
+            BlueprintName = "howdoiAppTests"
             ReferencedContainer = "container:howdoi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

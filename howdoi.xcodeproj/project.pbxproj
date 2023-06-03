@@ -117,7 +117,7 @@
 		D4B0A08322B7FDBB007342AF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A08222B7FDBB007342AF /* Errors.swift */; };
 		D4B0A08C22B8047C007342AF /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A08822B8047C007342AF /* KeychainPasswordItem.swift */; };
 		D4B0A08E22B804B8007342AF /* ConversationsCredentialStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A08D22B804B8007342AF /* ConversationsCredentialStorage.swift */; };
-		D4C9FA6123E6F135008195AF /* ConversationsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4C9FA5F23E6F135008195AF /* ConversationsApp.xcdatamodeld */; };
+		D4C9FA6123E6F135008195AF /* howdoiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4C9FA5F23E6F135008195AF /* howdoiApp.xcdatamodeld */; };
 		D4E8B0E822CB8D61009AF419 /* CredentialStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8B0E722CB8D61009AF419 /* CredentialStorageProtocol.swift */; };
 		D4E8B0EA22CBA81C009AF419 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4E8B0E922CBA81C009AF419 /* Settings.bundle */; };
 		D4EA524D242BDC9900C1173A /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D4EA524C242BDC9900C1173A /* Localizable.stringsdict */; };
@@ -198,7 +198,7 @@
 		65E894DF27AB197B00B427EF /* AddParticipantsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParticipantsButton.swift; sourceTree = "<group>"; };
 		65E894E127AB1A3900B427EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65EF853327DFF55400F0C9D1 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
-		8628750926A7F799006DC561 /* ConversationsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConversationsApp.entitlements; sourceTree = "<group>"; };
+		8628750926A7F799006DC561 /* howdoiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = howdoiApp.entitlements; sourceTree = "<group>"; };
 		86C9EB522653C05B007C9984 /* TokenWrapperImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenWrapperImpl.swift; sourceTree = "<group>"; };
 		86C9EB542653C0BA007C9984 /* TokenWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenWrapper.swift; sourceTree = "<group>"; };
 		86F0F78926958E7000669E7A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
@@ -243,9 +243,9 @@
 		D428064322B3CA940021795A /* ConversationsClientWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsClientWrapper.swift; sourceTree = "<group>"; };
 		D428064522B3DDBB0021795A /* ConversationsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsProvider.swift; sourceTree = "<group>"; };
 		D43605852328DEBC00366B90 /* WeakWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakWrapper.swift; sourceTree = "<group>"; };
-		D43775E4242A191C00FAF35E /* MessageDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageDataItem.swift; path = ConversationsApp/Models/Entities/MessageDataItem.swift; sourceTree = SOURCE_ROOT; };
+		D43775E4242A191C00FAF35E /* MessageDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageDataItem.swift; path = howdoiApp/Models/Entities/MessageDataItem.swift; sourceTree = SOURCE_ROOT; };
 		D457CA77241FAC9A0051DDF4 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
-		D473F30F229D715A008709FB /* ConversationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473F30F229D715A008709FB /* howdoiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = howdoiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D473F312229D715A008709FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D473F319229D715E008709FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D473F31E229D715E008709FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -255,7 +255,7 @@
 		D4B0A08222B7FDBB007342AF /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		D4B0A08822B8047C007342AF /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		D4B0A08D22B804B8007342AF /* ConversationsCredentialStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsCredentialStorage.swift; sourceTree = "<group>"; };
-		D4C9FA6023E6F135008195AF /* ConversationsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConversationsApp.xcdatamodel; sourceTree = "<group>"; };
+		D4C9FA6023E6F135008195AF /* howdoiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = howdoiApp.xcdatamodel; sourceTree = "<group>"; };
 		D4C9FA8123E6F68E008195AF /* PersistentConversationDataItem+CoreDataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersistentConversationDataItem+CoreDataExt.swift"; sourceTree = "<group>"; };
 		D4E8B0E722CB8D61009AF419 /* CredentialStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStorageProtocol.swift; sourceTree = "<group>"; };
 		D4E8B0E922CBA81C009AF419 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -532,7 +532,7 @@
 		97A7164224B847E50053F114 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				D4C9FA5F23E6F135008195AF /* ConversationsApp.xcdatamodeld */,
+				D4C9FA5F23E6F135008195AF /* howdoiApp.xcdatamodeld */,
 				D48AC26B2305844E004E66A8 /* ObservableResultPublisher.swift */,
 				D4C9FA8123E6F68E008195AF /* PersistentConversationDataItem+CoreDataExt.swift */,
 				974E44E724B84AA40034B086 /* PersistentParticipantDataItem+CoreDataExt.swift */,
@@ -607,7 +607,7 @@
 		D473F310229D715A008709FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D473F30F229D715A008709FB /* ConversationsApp.app */,
+				D473F30F229D715A008709FB /* howdoiApp.app */,
 				04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */,
 			);
 			name = Products;
@@ -617,7 +617,7 @@
 			isa = PBXGroup;
 			children = (
 				2F021DBE2846A6930076EDE7 /* Preview Content */,
-				8628750926A7F799006DC561 /* ConversationsApp.entitlements */,
+				8628750926A7F799006DC561 /* howdoiApp.entitlements */,
 				92A41339271785F500055C1A /* Views */,
 				D417C76322B3B9EF009CC863 /* ViewModels */,
 				D428064222B3CA3F0021795A /* ConversationsClient */,
@@ -728,9 +728,9 @@
 			productReference = 04CD54F92746779D001D1EFC /* PushNotificationServiceExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		D473F30E229D715A008709FB /* ConversationsApp */ = {
+		D473F30E229D715A008709FB /* howdoiApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D473F337229D715E008709FB /* Build configuration list for PBXNativeTarget "ConversationsApp" */;
+			buildConfigurationList = D473F337229D715E008709FB /* Build configuration list for PBXNativeTarget "howdoiApp" */;
 			buildPhases = (
 				D473F30B229D715A008709FB /* Sources */,
 				D473F30C229D715A008709FB /* Frameworks */,
@@ -743,7 +743,7 @@
 			dependencies = (
 				04CD54FF2746779D001D1EFC /* PBXTargetDependency */,
 			);
-			name = ConversationsApp;
+			name = howdoiApp;
 			packageProductDependencies = (
 				8616F097260B75EC00EAABC0 /* FirebaseCrashlytics */,
 				860072E0263C4A82001D7F4E /* TwilioConversationsClient */,
@@ -751,8 +751,8 @@
 				864BF66D272ADF0200B30989 /* AppCenterDistribute */,
 				2F5F128C27C82B0D002E4614 /* BottomSheet */,
 			);
-			productName = ConversationsApp;
-			productReference = D473F30F229D715A008709FB /* ConversationsApp.app */;
+			productName = howdoiApp;
+			productReference = D473F30F229D715A008709FB /* howdoiApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -794,7 +794,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D473F30E229D715A008709FB /* ConversationsApp */,
+				D473F30E229D715A008709FB /* howdoiApp */,
 				04CD54F82746779D001D1EFC /* PushNotificationServiceExtension */,
 			);
 		};
@@ -954,7 +954,7 @@
 				9740A47D2514EC0B00217178 /* URL+Ext.swift in Sources */,
 				D4E8B0E822CB8D61009AF419 /* CredentialStorageProtocol.swift in Sources */,
 				92A2F037270F001A00330704 /* MessageBubbleViewModel.swift in Sources */,
-				D4C9FA6123E6F135008195AF /* ConversationsApp.xcdatamodeld in Sources */,
+				D4C9FA6123E6F135008195AF /* howdoiApp.xcdatamodeld in Sources */,
 				65CDD32327C053F7002C937B /* ReactionsDetailsView.swift in Sources */,
 				97811DD4248FA9F3002D4FD0 /* MessagesDAO.swift in Sources */,
 				2F5F129227D02001002E4614 /* AddParticipantSheet.swift in Sources */,
@@ -1167,15 +1167,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = howdoiApp/howdoiApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = Debug;
-				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "howdoiApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = Z54V23ER85;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_FILE = howdoiApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "how do i";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1196,15 +1196,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = howdoiApp/howdoiApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = Debug;
-				DEVELOPMENT_ASSET_PATHS = "ConversationsApp/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "howdoiApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = Z54V23ER85;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = ConversationsApp/Info.plist;
+				INFOPLIST_FILE = howdoiApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "how do i";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1243,7 +1243,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D473F337229D715E008709FB /* Build configuration list for PBXNativeTarget "ConversationsApp" */ = {
+		D473F337229D715E008709FB /* Build configuration list for PBXNativeTarget "howdoiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D473F338229D715E008709FB /* Debug */,
@@ -1326,13 +1326,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		D4C9FA5F23E6F135008195AF /* ConversationsApp.xcdatamodeld */ = {
+		D4C9FA5F23E6F135008195AF /* howdoiApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D4C9FA6023E6F135008195AF /* ConversationsApp.xcdatamodel */,
+				D4C9FA6023E6F135008195AF /* howdoiApp.xcdatamodel */,
 			);
-			currentVersion = D4C9FA6023E6F135008195AF /* ConversationsApp.xcdatamodel */;
-			path = ConversationsApp.xcdatamodeld;
+			currentVersion = D4C9FA6023E6F135008195AF /* howdoiApp.xcdatamodel */;
+			path = howdoiApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
