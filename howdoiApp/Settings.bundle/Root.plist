@@ -14,7 +14,7 @@
 			<key>Key</key>
 			<string>ACCESS_TOKEN_SERVICE_URL</string>
 			<key>DefaultValue</key>
-			<string>https://hdia001-4124.twil.io/token-service</string>
+			<string>https://tmtchat-8228.twil.io/token-service</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
